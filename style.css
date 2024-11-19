@@ -1,0 +1,20 @@
+:root{
+    --bg-color:#32cd32;
+}
+
+.bg-box{
+    width:500px;
+    height: 300px;
+    
+    background-color: var(--bg-color);
+    background-image: url(./images/house.webp), url(./images/grees.png), url(./images/lamp.png), url(./images/ez.webp), url(./images/poncik.png);
+
+  background-repeat:no-repeat,repeat-x,repeat-x,repeat-y, repeat-y;
+
+   background-size:250px,150px,20px,15px,15px;
+   background-position: center,bottom,top,left,right;
+ 
+ 
+
+}
+
